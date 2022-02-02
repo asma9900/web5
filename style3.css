@@ -1,0 +1,49 @@
+div{ 
+    border: 2px solid yellow;
+    padding: 20px;
+    width: 400px;
+    margin: auto;
+    background-color: rgb(63, 58, 58);
+    color: beige;
+    border-radius: 20px;
+}
+div:hover{
+    box-shadow: 0px 0px 10px 10px black;
+}
+
+
+
+
+body{
+    background-image: url('R.jfif');
+    background-repeat: no-repeat;
+background-size: cover;
+}
+div input{
+    border-bottom: 2px dotted rgb(5, 5, 5);
+    background-color:  rgb(231, 226, 226);
+  padding: 10px;
+border-radius: 20px;
+margin-left: 85px;
+}
+div a{
+    text-decoration: none;
+    color: rgb(3, 3, 3);
+    border: 2px solid snow;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(231, 226, 226) ;
+    box-shadow: 0px 0px 10px 0px yellow;
+    margin-left: 150px;
+    
+}
+div a:hover{
+   border-width: 5px;
+   box-shadow: 0px 0px 5px 0px yellow;
+}
+a target{
+    background-color: blue;
+}
+:target{
+   width: 100px;
+}
